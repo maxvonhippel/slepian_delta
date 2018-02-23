@@ -118,6 +118,8 @@ end
 % Initialize/Preallocate
 defval('givenerrors',ones(size(slept)));
 defval('fitwhat',[3 365.0])
+defval('P2ftest',0);
+defval('P3ftest',0);
 
 % Handle the dates
 if length(thedates)==size(slept,1)
